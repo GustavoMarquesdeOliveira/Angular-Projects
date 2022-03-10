@@ -14,6 +14,8 @@ import {MatBadgeModule} from '@angular/material/badge';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatIconModule} from '@angular/material/icon';
 import {MatPaginatorModule} from '@angular/material/paginator';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatTabsModule} from '@angular/material/tabs';
 
 
 @NgModule({
@@ -34,6 +36,8 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     MatMenuModule,
     MatIconModule,
     MatPaginatorModule,
+    MatGridListModule,
+    MatTabsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
